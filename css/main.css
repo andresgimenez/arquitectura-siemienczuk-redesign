@@ -11497,4 +11497,8 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.header__logo {
+  height: 40px;
+}
 /*# sourceMappingURL=main.css.map */
