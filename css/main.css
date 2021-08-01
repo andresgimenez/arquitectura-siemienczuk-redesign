@@ -1,3 +1,87 @@
+.bg-naranja {
+  background-color: #fc7404;
+}
+
+.bg-naranja-opacity-5 {
+  background-color: rgba(252, 116, 4, 0.5);
+}
+
+.bg-naranja-opacity-3 {
+  background-color: rgba(252, 116, 4, 0.3);
+}
+
+.bg-naranja-claro {
+  background-color: #ea9539;
+}
+
+.bg-naranja-claro-opacity-5 {
+  background-color: rgba(234, 149, 57, 0.5);
+}
+
+.bg-naranja-claro-opacity-3 {
+  background-color: rgba(234, 149, 57, 0.3);
+}
+
+.bg-negro {
+  background-color: #070707;
+}
+
+.bg-negro-opacity-5 {
+  background-color: rgba(7, 7, 7, 0.5);
+}
+
+.bg-negro-opacity-3 {
+  background-color: rgba(7, 7, 7, 0.3);
+}
+
+.bg-gris {
+  background-color: #696969;
+}
+
+.bg-gris-opacity-5 {
+  background-color: rgba(105, 105, 105, 0.5);
+}
+
+.bg-gris-opacity-3 {
+  background-color: rgba(105, 105, 105, 0.3);
+}
+
+.bg-gris-claro {
+  background-color: #999999;
+}
+
+.bg-gris-claro-opacity-5 {
+  background-color: rgba(153, 153, 153, 0.5);
+}
+
+.bg-gris-claro-opacity-3 {
+  background-color: rgba(153, 153, 153, 0.3);
+}
+
+.bg-gris-oscuro {
+  background-color: #4c4c4c;
+}
+
+.bg-gris-oscuro-opacity-5 {
+  background-color: rgba(76, 76, 76, 0.5);
+}
+
+.bg-gris-oscuro-opacity-3 {
+  background-color: rgba(76, 76, 76, 0.3);
+}
+
+.bg-gris-mine-shaft {
+  background-color: #353535;
+}
+
+.bg-gris-mine-shaft-opacity-5 {
+  background-color: rgba(53, 53, 53, 0.5);
+}
+
+.bg-gris-mine-shaft-opacity-3 {
+  background-color: rgba(53, 53, 53, 0.3);
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11500,5 +11584,43 @@ fieldset:disabled .btn {
 
 .header__logo {
   height: 40px;
+}
+
+.footer-custom {
+  height: 20vh;
+  padding: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-custom div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer-custom div img {
+  margin-bottom: 10px;
+}
+
+.footer-custom__logo--size {
+  height: 50px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,12 @@
+// Clases para colores de fondo
+@each $nombre, $color in $colores-estudio {
+    .bg-#{$nombre} {
+        background-color: $color;
+    }
+    .bg-#{$nombre}-opacity-5 {
+        background-color: rgba($color, .5);
+    }
+    .bg-#{$nombre}-opacity-3 {
+        background-color: rgba($color, .3);
+    }
+}
