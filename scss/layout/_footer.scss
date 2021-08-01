@@ -12,6 +12,12 @@
         img {
             margin-bottom: 10px;
         }
+        p {
+            a {
+                text-decoration: none;
+                color: map-get($colores-estudio, "naranja");
+            }
+        }
     }
 }
 

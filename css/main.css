@@ -10,6 +10,10 @@
   background-color: rgba(252, 116, 4, 0.3);
 }
 
+.color-naranja {
+  color: #fc7404;
+}
+
 .bg-naranja-claro {
   background-color: #ea9539;
 }
@@ -20,6 +24,10 @@
 
 .bg-naranja-claro-opacity-3 {
   background-color: rgba(234, 149, 57, 0.3);
+}
+
+.color-naranja-claro {
+  color: #ea9539;
 }
 
 .bg-negro {
@@ -34,6 +42,10 @@
   background-color: rgba(7, 7, 7, 0.3);
 }
 
+.color-negro {
+  color: #070707;
+}
+
 .bg-gris {
   background-color: #696969;
 }
@@ -44,6 +56,10 @@
 
 .bg-gris-opacity-3 {
   background-color: rgba(105, 105, 105, 0.3);
+}
+
+.color-gris {
+  color: #696969;
 }
 
 .bg-gris-claro {
@@ -58,6 +74,10 @@
   background-color: rgba(153, 153, 153, 0.3);
 }
 
+.color-gris-claro {
+  color: #999999;
+}
+
 .bg-gris-oscuro {
   background-color: #4c4c4c;
 }
@@ -70,6 +90,10 @@
   background-color: rgba(76, 76, 76, 0.3);
 }
 
+.color-gris-oscuro {
+  color: #4c4c4c;
+}
+
 .bg-gris-mine-shaft {
   background-color: #353535;
 }
@@ -80,6 +104,10 @@
 
 .bg-gris-mine-shaft-opacity-3 {
   background-color: rgba(53, 53, 53, 0.3);
+}
+
+.color-gris-mine-shaft {
+  color: #353535;
 }
 
 /*!
@@ -11620,7 +11648,53 @@ fieldset:disabled .btn {
   margin-bottom: 10px;
 }
 
+.footer-custom div p a {
+  text-decoration: none;
+  color: #fc7404;
+}
+
 .footer-custom__logo--size {
   height: 50px;
+}
+
+.titulo-contacto {
+  text-align: center;
+  padding: 20px;
+}
+
+.contenido-contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenido-contacto div {
+  padding: 20px;
+}
+
+.contenido-contacto div h4, .contenido-contacto div .h4 {
+  margin-bottom: 20px;
+  color: #fc7404;
+}
+
+.contenido-contacto div ul {
+  list-style: square;
+}
+
+.contenido-contacto div ul li a {
+  text-decoration: none;
+  color: #fc7404;
+}
+
+.contenido-contacto div p a {
+  text-decoration: none;
+  color: #fc7404;
 }
 /*# sourceMappingURL=main.css.map */

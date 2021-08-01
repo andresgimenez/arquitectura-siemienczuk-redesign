@@ -1,0 +1,32 @@
+.titulo-contacto {
+    text-align: center;
+    padding: 20px;
+}
+
+.contenido-contacto {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    div {
+        padding: 20px;
+        h4 {
+            margin-bottom: 20px;
+            color: map-get($colores-estudio, "naranja");
+        }
+        ul {
+            list-style: square;
+            li {
+                a {
+                    text-decoration: none;
+                    color: map-get($colores-estudio, "naranja");
+                }
+            }
+        }
+        p {
+            a {
+                text-decoration: none;
+                color: map-get($colores-estudio, "naranja");
+            }
+        }
+    }
+}
