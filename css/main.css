@@ -11614,6 +11614,10 @@ fieldset:disabled .btn {
   height: 40px;
 }
 
+.header--border-bottom {
+  border-bottom: 1px solid rgba(252, 116, 4, 0.2);
+}
+
 .footer-custom {
   height: 20vh;
   padding: 45px;
@@ -12732,5 +12736,46 @@ fieldset:disabled .btn {
 .contenido-404 div a {
   padding: 10px;
   border-radius: 4px;
+}
+
+.titulo-mapa-del-sitio {
+  padding: 20px;
+}
+
+.contenido-mapa-del-sitio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 20px;
+}
+
+.contenido-mapa-del-sitio__lista {
+  padding-right: 20px;
+}
+
+.contenido-mapa-del-sitio__lista ul {
+  list-style-type: square;
+}
+
+.contenido-mapa-del-sitio__lista ul li {
+  padding: 5px;
+}
+
+.contenido-mapa-del-sitio__lista ul li ul {
+  list-style-type: circle;
+}
+
+.contenido-mapa-del-sitio__lista ul li a {
+  text-decoration: none;
+  color: #353535;
+}
+
+.contenido-mapa-del-sitio__lista ul li a:hover {
+  text-decoration: underline;
+  color: #fc7404;
 }
 /*# sourceMappingURL=main.css.map */

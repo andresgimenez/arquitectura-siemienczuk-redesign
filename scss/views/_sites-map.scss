@@ -1,0 +1,30 @@
+.titulo-mapa-del-sitio {
+    padding: 20px;
+}
+
+.contenido-mapa-del-sitio {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+
+.contenido-mapa-del-sitio__lista {
+    padding-right: 20px;
+    ul {
+        list-style-type: square;
+        li {
+            ul {
+                list-style-type: circle;
+            }
+            padding: 5px;
+            a {
+                text-decoration: none;
+                color: map-get($colores-estudio, "gris-mine-shaft");
+            }
+            a:hover {
+                text-decoration: underline;
+                color: map-get($colores-estudio, "naranja");
+            }
+        }
+    }
+}
