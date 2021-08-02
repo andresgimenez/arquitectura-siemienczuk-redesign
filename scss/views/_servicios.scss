@@ -1,0 +1,62 @@
+// Grid para sección de servicios
+.grilla-servicios {
+    display: grid;
+    grid-template-areas: 
+    "carpinteria albanileria electricidad"
+    "durlock herreria pintura"
+    ". plomeria none"
+    "disenoAdministracion disenoAdministracion disenoAdministracion"
+    ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: auto;
+    grid-row: auto;
+}
+
+.grilla-servicios__icon--bg {
+    display: flex;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: map-get($colores-estudio, "naranja");
+    align-items: center;
+    justify-content: center;
+}
+
+#carpinteria {
+    grid-area: carpinteria;
+}
+
+#albanileria {
+    grid-area: albanileria;
+}
+
+#electricidad {
+    grid-area: electricidad;
+}
+
+#durlock {
+    grid-area: durlock;
+}
+
+#herreria {
+    grid-area: herreria;
+}
+
+#pintura {
+    grid-area: pintura;
+}
+
+#plomeria {
+    grid-area: plomeria;
+}
+
+#disenoAdministracion {
+    grid-area: disenoAdministracion;
+    display: flex;
+    flex-direction: row;
+}
+
+#disenoAdministracion div ul {
+    list-style-type: none;
+}
