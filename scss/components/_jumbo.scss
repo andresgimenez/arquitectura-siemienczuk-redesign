@@ -1,36 +1,44 @@
 // Carousel Home
 .carousel-custom-size {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
 }
 
 .titulo-carousel {
     position: absolute;
-    top: 150px;
+    top: 250px;
     width: 100%;
     color: white;
     padding: 20px;
     text-shadow: 2px 2px 1px rgba(map-get($colores-estudio, "gris-mine-shaft"), 1);
     transition: 2s;
+
     h1 {
         font-size: 55px;
     }
+
     h3 {
         font-size: 40px;
     }
 }
 
+.inner-shadow {
+    box-shadow: 1px 1px 130px -40px rgba(map-get($colores-estudio, "gris-mine-shaft"), 0.5) inset;
+}
+
 @media (max-width: 992px) {
     .titulo-carousel {
         position: absolute;
-        top: 80px;
+        top: 100px;
         width: 100%;
         color: white;
         padding: 20px;
+
         h1 {
             font-size: 55px;
         }
+
         h3 {
             font-size: 40px;
         }

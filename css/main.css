@@ -11614,16 +11614,6 @@ fieldset:disabled .btn {
   height: 40px;
 }
 
-.header--custom-height {
-  height: 10vh;
-}
-
-@media (max-width: 992px) {
-  .header--custom-height {
-    height: auto;
-  }
-}
-
 .footer-custom {
   height: 20vh;
   padding: 45px;
@@ -12193,7 +12183,7 @@ fieldset:disabled .btn {
 }
 
 .carousel-custom-size {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -12201,7 +12191,7 @@ fieldset:disabled .btn {
 
 .titulo-carousel {
   position: absolute;
-  top: 150px;
+  top: 250px;
   width: 100%;
   color: white;
   padding: 20px;
@@ -12218,10 +12208,15 @@ fieldset:disabled .btn {
   font-size: 40px;
 }
 
+.inner-shadow {
+  -webkit-box-shadow: 1px 1px 130px -40px rgba(53, 53, 53, 0.5) inset;
+          box-shadow: 1px 1px 130px -40px rgba(53, 53, 53, 0.5) inset;
+}
+
 @media (max-width: 992px) {
   .titulo-carousel {
     position: absolute;
-    top: 80px;
+    top: 100px;
     width: 100%;
     color: white;
     padding: 20px;
@@ -12231,6 +12226,71 @@ fieldset:disabled .btn {
   }
   .titulo-carousel h3, .titulo-carousel .h3 {
     font-size: 40px;
+  }
+}
+
+.contenido-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenido-home div {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.contenido-home img {
+  height: 500px;
+  width: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 4px;
+}
+
+@media (max-width: 767.98px) {
+  .contenido-home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenido-home div {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    padding-bottom: 20px;
+  }
+  .contenido-home img {
+    height: 250px;
+    width: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 4px;
   }
 }
 
