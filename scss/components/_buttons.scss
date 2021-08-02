@@ -1,0 +1,11 @@
+@each $color, $value in $colores-estudio {
+    .btn-#{$color} {
+      @include button-variant($value, $value);
+    }
+  }
+  
+  @each $color, $value in $colores-estudio {
+    .btn-outline-#{$color} {
+      @include button-outline-variant($value);
+    }
+  }
