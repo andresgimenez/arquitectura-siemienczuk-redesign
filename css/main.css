@@ -8194,23 +8194,23 @@ textarea.form-control-lg {
 
 #oficinas {
   grid-area: oficinas;
-  background-image: url(../../../assets/images/caefe-1.jpg); }
+  background-image: url(../../assets/images/caefe-1.jpg); }
 
 #edificiosPublicos {
   grid-area: edificiosPublicos;
-  background-image: url(../../../assets/images/escuela-tecnica-1.jpg); }
+  background-image: url(../../assets/images/escuela-tecnica-1.jpg); }
 
 #localesComerciales {
   grid-area: localesComerciales;
-  background-image: url(../../../assets/images/joyeria-lingote-1.jpg); }
+  background-image: url(../../assets/images/joyeria-lingote-1.jpg); }
 
 #viviendasUnifamiliares {
   grid-area: viviendasUnifamiliares;
-  background-image: url(../../../assets/images/viviendas-unifamiliares/casa-rossi-1.jpg); }
+  background-image: url(../../assets/images/viviendas-unifamiliares/casa-rossi-1.jpg); }
 
 #viviendasColectivas {
   grid-area: viviendasColectivas;
-  background-image: url(../../../assets/images/cabanas-vcp-1.jpg); }
+  background-image: url(../../assets/images/cabanas-vcp-1.jpg); }
 
 #contacto-cta {
   grid-area: contacto-cta;
