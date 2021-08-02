@@ -1,7 +1,7 @@
 {
-  "name": "proyecto",
+  "name": "arquitectura-siemienczuk-rediseno",
   "version": "1.0.0",
-  "description": "",
+  "description": "rediseño del sitio web del estudio de arquitectura Siemienczuk, de la ciudad de Rosario, Santa Fe, Argentina",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^5.0.2"
@@ -18,6 +18,6 @@
 
   },
   "keywords": [],
-  "author": "",
+  "author": "Andres Gimenez",
   "license": "ISC"
 }
