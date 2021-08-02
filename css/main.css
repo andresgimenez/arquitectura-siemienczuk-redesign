@@ -11614,6 +11614,16 @@ fieldset:disabled .btn {
   height: 40px;
 }
 
+.header--custom-height {
+  height: 10vh;
+}
+
+@media (max-width: 992px) {
+  .header--custom-height {
+    height: auto;
+  }
+}
+
 .footer-custom {
   height: 20vh;
   padding: 45px;
@@ -12191,9 +12201,37 @@ fieldset:disabled .btn {
 
 .titulo-carousel {
   position: absolute;
-  top: 50px;
+  top: 150px;
   width: 100%;
   color: white;
+  padding: 20px;
+  text-shadow: 2px 2px 1px #353535;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.titulo-carousel h1, .titulo-carousel .h1 {
+  font-size: 55px;
+}
+
+.titulo-carousel h3, .titulo-carousel .h3 {
+  font-size: 40px;
+}
+
+@media (max-width: 992px) {
+  .titulo-carousel {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    color: white;
+    padding: 20px;
+  }
+  .titulo-carousel h1, .titulo-carousel .h1 {
+    font-size: 55px;
+  }
+  .titulo-carousel h3, .titulo-carousel .h3 {
+    font-size: 40px;
+  }
 }
 
 .titulo-estudio {
