@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,15 @@
     <!-- Hoja de estilo -->
     <link rel="stylesheet" href="../css/main.css">
 </head>
+
 <body>
     <header id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <!-- Logo con link a home -->
                 <a class="navbar-brand" href="#">
-                    <img class="header__logo" src="../assets/images/logo-con-texto.png" alt="logo del estudio Ivan Siemienczuk Arquitectura">
+                    <img class="header__logo" src="../assets/images/logo-con-texto.png"
+                        alt="logo del estudio Ivan Siemienczuk Arquitectura">
                 </a>
                 <!-- Fin logo con link a home -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -46,67 +49,151 @@
         </nav>
     </header>
     <main>
+        <section id="servicios">
+            <h2 class="titulo-servicios color-gris-mine-shaft">Servicios profesionales</h2>
+            <p>Nos diferenciamos del resto de los estudios de arquitectura por nuestro especial énfasis en la calidad del diseño, la atención personalizada y asesoramiento en cada momento de la construcción desde la compra del terreno hasta la entrega de la llave de su obra.</p>
+        </section>
         <div class="grilla-servicios">
+            <!-- Carpinteria -->
             <section id="carpinteria">
                 <div class="grilla-servicios__icon--bg">
-                    <svg class="grilla-servicios__icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
-                        <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
-                      </svg>
+                    <svg height="55" width="55" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 459.2 459.2"
+                        style="enable-background:new 0 0 459.2 459.2;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M190,343.2l-48-48c-4.8-4.8-10.4-6.4-17.6-6.4c-10.4,0-21.6,5.6-30.4,13.6c-15.2,15.2-18.4,36-7.2,47.2l48,48
+                                c4.8,4.8,10.4,6.4,17.6,6.4c10.4,0,21.6-5.6,30.4-13.6C198,375.2,201.2,354.4,190,343.2z M170,378.4c-6.4,6.4-12.8,8.8-17.6,8.8
+                                c-1.6,0-3.2,0-4.8-1.6l-48-48c-3.2-3.2-1.6-13.6,7.2-22.4c6.4-6.4,12.8-8.8,17.6-8.8c1.6,0,3.2,0,4.8,1.6l48,48
+                                C180.4,359.2,178.8,368.8,170,378.4z"/>
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M430.8,69.6c0-2.4-1.6-4.8-3.2-6.4L366.8,2.4c-3.2-3.2-9.6-3.2-12.8,0L135.6,220.8L31.6,324c-4,4-6.4,8.8-6.4,14.4
+                                c0,5.6,1.6,11.2,5.6,15.2l100,100c3.2,4,8.8,5.6,13.6,5.6c5.6,0,11.2-2.4,16-6.4l75.2-75.2c6.4-6.4,20-22.4,20.8-42.4l28.8,0.8
+                                c2.4,0,4.8-0.8,6.4-2.4c1.6-1.6,2.4-4,2.4-7.2l-3.2-42.4l30.4,0.8c2.4,0,4.8-0.8,6.4-2.4c1.6-1.6,2.4-4,2.4-7.2l-3.2-42.4
+                                l28.8,0.8c2.4,0,4.8-0.8,6.4-2.4c1.6-1.6,2.4-4,2.4-7.2l-2.4-42.4l28,0.8c2.4,0,4.8-0.8,6.4-2.4c1.6-1.6,2.4-4,2.4-7.2l-3.2-41.6
+                                l29.6,0.8c2.4,0,4.8-0.8,6.4-2.4c1.6-1.6,2.4-4,2.4-7.2L430.8,69.6z M222,364.8L146.8,440c-0.8,0.8-3.2,2.4-4,0.8l-99.2-100V340
+                                c0-0.8,0-2.4,0.8-3.2L146,235.2l1.6-1.6c0.8-0.8,1.6-1.6,3.2-1.6h0.8l70.4,70.4C247.6,328,236.4,350.4,222,364.8z M386,112
+                                c-4.8,0-8.8,4.8-8,9.6l3.2,42.4l-28-0.8c-4.8,0-8.8,4-9.6,8.8c0,1.6,4,44,4,44s-28.8-1.6-29.6-1.6c-4.8,0-8.8,4.8-8,9.6l3.2,42.4
+                                l-31.2-0.8c-4.8,0-8.8,4.8-8,9.6l3.2,42.4l-22.4-0.8c-3.2-8.8-8.8-17.6-17.6-27.2l-70.4-70.4c-0.8-0.8-0.8-0.8-1.6-1.6l195.2-196
+                                l52.8,52.8l3.2,39.2C416.4,113.6,387.6,112,386,112z"/>
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M359.6,47.2c-15.2,0-27.2,12-27.2,27.2c0.8,14.4,12.8,27.2,27.2,27.2c15.2,0,27.2-12,27.2-27.2S374.8,47.2,359.6,47.2z
+			                    M359.6,83.2c-4.8,0-8.8-4-8.8-8.8c0-4.8,4-8.8,8.8-8.8c4.8,0,8.8,4,8.8,8.8S364.4,83.2,359.6,83.2z" />
+                            </g>
+                        </g>
+                    </svg>
                 </div>
                 <h4>Carpintería</h4>
                 <p>Fabricamos todos los muebles sugeridos o diseñados.</p>
             </section>
+            <!-- Albañilería -->
             <section id="albanileria">
-                <svg class="grilla-servicios__icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
-                    <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
-                  </svg>
+                <div class="grilla-servicios__icon--bg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                        fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
+                        <path
+                            d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z" />
+                    </svg>
+                </div>
                 <h4>Albañilería</h4>
                 <p>Contamos con personal capacitado para todo tipo de obra.</p>
             </section>
+            <!-- Electricidad -->
             <section id="electricidad">
-                <svg class="grilla-servicios__icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
-                    <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
-                  </svg>
+                <div class="grilla-servicios__icon--bg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-lightning" viewBox="0 0 16 16">
+                        <path
+                            d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z" />
+                    </svg>
+                </div>
                 <h4>Electricidad</h4>
                 <p>Personal idóneo, para todo tipo de instalaciones eléctricas, y colocacion de luminarias tanto
                     exterior como interior.</p>
             </section>
+            <!-- Durlock -->
             <section id="durlock">
-                <svg class="grilla-servicios__icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
-                    <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
-                  </svg>
+                <div class="grilla-servicios__icon--bg">
+                    <svg class="grilla-servicios__icon" height="45" width="45" id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <g>
+                            <path d="M511.771,9.784c-0.054-0.596-0.173-1.185-0.354-1.756c-0.229-0.556-0.518-1.086-0.862-1.579
+                             c-0.16-0.351-0.346-0.69-0.554-1.015c-0.08-0.096-0.198-0.133-0.282-0.225c-0.427-0.423-0.897-0.8-1.404-1.123
+                             c-0.394-0.321-0.816-0.605-1.26-0.849c-0.472-0.183-0.961-0.324-1.458-0.419c-0.573-0.182-1.164-0.301-1.762-0.356
+                             c-0.128-0.006-0.237-0.074-0.367-0.074c-0.391,0.049-0.777,0.127-1.156,0.233c-0.589,0.054-1.17,0.171-1.733,0.35
+                             C500.021,3.2,499.493,3.488,499,3.831c-0.355,0.161-0.697,0.348-1.025,0.558L5.292,417.785l-2.3,1.963
+                             c-0.09,0.076-0.123,0.186-0.208,0.265c-0.419,0.431-0.79,0.905-1.108,1.415c-0.321,0.394-0.605,0.815-0.85,1.26
+                             c-0.173,0.464-0.306,0.942-0.397,1.429c-0.186,0.584-0.307,1.187-0.362,1.797C0.06,426.029,0,426.124,0,426.24v74.837
+                             c-0.001,2.263,0.898,4.434,2.499,6.035c1.6,1.6,3.771,2.499,6.035,2.499h494.933c2.263,0.001,4.434-0.898,6.035-2.499
+                             c1.6-1.6,2.499-3.771,2.499-6.035V10.923C511.951,10.538,511.875,10.158,511.771,9.784z M494.933,492.544H17.067v-25.6h477.867
+                             V492.544z M494.933,449.877H60.046l20.34-17.067h414.548V449.877z M100.723,415.744l146.744-123.139v123.139H100.723z
+                              M264.533,415.744v-137.46l12.565-10.543l4.502,4.503v143.5H264.533z M460.8,403.148v12.596h-11.567L290.219,256.73l13.139-11.024
+                             L460.8,403.148z M316.479,234.694L460.8,113.589v265.426L316.479,234.694z M425.1,415.744H298.667V289.31L425.1,415.744z
+                              M494.933,415.744h-17.067V99.267l17.067-14.321V415.744z M494.933,62.663L250.006,268.198l-0.052,0.044L71.267,418.191
+                             l-0.097,0.082l-37.661,31.604H17.067v-19.656L494.933,29.225V62.663z" />
+                        </g>
+                    </svg>
+                </div>
                 <h4>Durlock</h4>
                 <p>Armado y colocación de tabiquerías y cielorrasos.</p>
             </section>
+            <!-- Herrería -->
             <section id="herreria">
-                <svg class="grilla-servicios__icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
-                    <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
-                  </svg>
+                <div class="grilla-servicios__icon--bg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-gear" viewBox="0 0 16 16">
+                        <path
+                            d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                        <path
+                            d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+                    </svg>
+                </div>
                 <h4>Herrería</h4>
                 <p>De obra y de taller, de acuerdo a planos, rejas escaleras, diseños en chapas de distintos
                     materiales, cortes con pantografos, plegados y diversos tipos de terminaciones como cromados,
                     pinturas, o patinas.</p>
             </section>
+            <!-- Pintura -->
             <section id="pintura">
-                <svg class="grilla-servicios__icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
-                    <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
-                  </svg>
+                <div class="grilla-servicios__icon--bg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-bucket" viewBox="0 0 16 16">
+                        <path
+                            d="M2.522 5H2a.5.5 0 0 0-.494.574l1.372 9.149A1.5 1.5 0 0 0 4.36 16h7.278a1.5 1.5 0 0 0 1.483-1.277l1.373-9.149A.5.5 0 0 0 14 5h-.522A5.5 5.5 0 0 0 2.522 5zm1.005 0a4.5 4.5 0 0 1 8.945 0H3.527zm9.892 1-1.286 8.574a.5.5 0 0 1-.494.426H4.36a.5.5 0 0 1-.494-.426L2.58 6h10.838z" />
+                    </svg>
+                </div>
                 <h4>Pintura</h4>
                 <p>Interior y exterior, latex, patinas, espatulados, revoques plasticos, estucos, aplicaciones en
                     diversas tecnicas como pincel, soplete, espatulas, llanados.</p>
             </section>
+            <!-- Plomeria -->
             <section id="plomeria">
-                <svg class="grilla-servicios__icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
-                    <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
-                  </svg>
+                <div class="grilla-servicios__icon--bg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-droplet" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z" />
+                        <path fill-rule="evenodd"
+                            d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z" />
+                    </svg>
+                </div>
                 <h4>Plomería</h4>
                 <p>Instalaciones generales de gas y agua, sistemas de riegos automaticos, instalaciones industriales,
-                    domiciliarias, hidromasajes, duchas escosesas, instalaciones gastronomicas.<</p>
+                    domiciliarias, hidromasajes, duchas escosesas, instalaciones gastronomicas.</p>
             </section>
+            <!-- Diseño y administración -->
             <section id="disenoAdministracion">
                 <div>
                     <h4>Diseño</h4>
-                    <ul> <!--DISEÑO-->
+                    <ul>
+                        <!--DISEÑO-->
                         <li>Anteproyecto - Proyecto</li>
                         <li>Estructuras</li>
                         <li>Diseños Interiores</li>
@@ -118,7 +205,8 @@
                 </div>
                 <div>
                     <h4>Administración</h4>
-                    <ul> <!--ADMINISTRACION-->
+                    <ul>
+                        <!--ADMINISTRACION-->
                         <li>Presupuestación del proyecto</li>
                         <li>Costeo</li>
                         <li>Seguimiento de avance de obra</li>
@@ -126,16 +214,18 @@
                         <li>Finales de obra</li>
                         <li>Ambientaciones</li>
                         <li>Equipamiento</li>
-                        </<ul>
+                    </<ul>
                 </div>
             </section>
         </div>
     </main>
     <footer class="footer-custom bg-gris">
         <div>
-            <img class="footer-custom__logo--size" src="../assets/images/logo-sin-texto.jpg" alt="logo del estudio Ivan Siemienczuk Arquitectura">
+            <img class="footer-custom__logo--size" src="../assets/images/logo-sin-texto.jpg"
+                alt="logo del estudio Ivan Siemienczuk Arquitectura">
             <p>Iván Siemienczuk Arquitectura</p>
-            <p><a href="../pages/contacto.html">Contacto</a> | <a href="../pages/sites-map.html">Mapa del sitio</a> | <a href="#header">Ir arriba</a></p>
+            <p><a href="../pages/contacto.html">Contacto</a> | <a href="../pages/sites-map.html">Mapa del sitio</a> | <a
+                    href="#header">Ir arriba</a></p>
         </div>
     </footer>
     <!-- Javascript para Bootstrap -->
@@ -144,4 +234,5 @@
     </script>
     <!-- Fin Javascript para Bootstrap -->
 </body>
+
 </html>

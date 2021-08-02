@@ -1,3 +1,15 @@
+.titulo-servicios {
+    text-align: center;
+    padding: 20px;
+}
+
+#servicios {
+    p {
+        
+        padding: 10px 150px 20px 150px;
+    }
+}
+
 // Grid para sección de servicios
 .grilla-servicios {
     display: grid;
@@ -11,6 +23,19 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-column: auto;
     grid-row: auto;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        h4 {
+            color: map-get($colores-estudio, "gris-mine-shaft");
+        }
+    }
 }
 
 .grilla-servicios__icon--bg {
@@ -18,9 +43,10 @@
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    background-color: map-get($colores-estudio, "naranja");
+    background-color: rgba(map-get($colores-estudio, "naranja"), 0.8);
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 #carpinteria {
@@ -55,8 +81,54 @@
     grid-area: disenoAdministracion;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+    div {
+        ul {
+            list-style-type: none;
+        }
+    }
 }
 
-#disenoAdministracion div ul {
-    list-style-type: none;
+@media (max-width: 767.98px) {
+    #servicios {
+        p {
+            padding: 10px 20px 20px 20px;
+        }
+    }
+
+    .grilla-servicios {
+        display: grid;
+        grid-template-areas: 
+        "carpinteria"
+        "albanileria"
+        "electricidad"
+        "durlock"
+        "herreria"
+        "pintura"
+        "plomeria"
+        "disenoAdministracion"
+        ;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+        grid-template-columns: 1fr;
+        grid-column: auto;
+        grid-row: auto;
+        padding: 20px;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+    }
+
+    #disenoAdministracion {
+        grid-area: disenoAdministracion;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
 }
