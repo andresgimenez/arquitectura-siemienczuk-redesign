@@ -12182,6 +12182,20 @@ fieldset:disabled .btn {
   background-color: transparent;
 }
 
+.carousel-custom-size {
+  height: 90vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.titulo-carousel {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  color: white;
+}
+
 .titulo-estudio {
   text-align: center;
   padding: 20px;
