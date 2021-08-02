@@ -1,0 +1,41 @@
+.titulo-estudio {
+    text-align: center;
+    padding: 20px;
+}
+
+.subtitulo-estudio {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+    border-bottom: 1px solid map-get($colores-estudio, "gris");
+}
+
+.contenido-estudio {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    div {
+        flex-basis: 50%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contenido-estudio {
+        display: flex;
+        flex-flow: column wrap;
+        padding: 20px;
+        div {
+            flex-basis: 50%;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+    }
+
+    .fixed-bottom {
+        position: static;
+    }
+}

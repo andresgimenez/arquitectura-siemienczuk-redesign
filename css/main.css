@@ -12182,6 +12182,60 @@ fieldset:disabled .btn {
   background-color: transparent;
 }
 
+.titulo-estudio {
+  text-align: center;
+  padding: 20px;
+}
+
+.subtitulo-estudio {
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 20px;
+  border-bottom: 1px solid #696969;
+}
+
+.contenido-estudio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 20px;
+}
+
+.contenido-estudio div {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (max-width: 767.98px) {
+  .contenido-estudio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    padding: 20px;
+  }
+  .contenido-estudio div {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .fixed-bottom {
+    position: static;
+  }
+}
+
 .titulo-contacto {
   text-align: center;
   padding: 20px;
